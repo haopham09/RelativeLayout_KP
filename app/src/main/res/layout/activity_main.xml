@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:gravity="center"
     tools:context=".MainActivity">
 
 <!--elevation :dổ bóng view-->
@@ -15,19 +16,59 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="View 1" />-->
-    <Button
-        android:layout_toLeftOf="@+id/view_2"
-        android:layout_alignParentLeft="true"
+    <TextView
+        android:id="@+id/view_1"
+        android:layout_alignLeft="@id/view_2"
+        android:layout_above="@id/view_2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="view 1" />
-
-    <Button
+        android:background="#FF4B4B"
+        android:textColor="#FFF"
+        android:text="RED" />
+    <TextView
         android:id="@+id/view_2"
-        android:layout_alignParentRight="true"
+        android:background="#4CAF50"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="view 2" />
+        android:textColor="#FFF"
+        android:text="GREEN" />
+    <TextView
+        android:background="#3F51B5"
+        android:id="@+id/view_3"
+        android:layout_alignLeft="@id/view_2"
+        android:layout_below="@+id/view_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFF"
+        android:text="BLUE" />
+    <TextView
+        android:background="#FF9800"
+        android:id="@+id/view_4"
+        android:layout_alignLeft="@id/view_2"
+        android:layout_below="@+id/view_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFF"
+        android:text="ORANGE" />
+    <TextView
+        android:background="#ADADAD"
+
+        android:id="@+id/view_5"
+        android:layout_alignLeft="@id/view_2"
+        android:layout_below="@+id/view_4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFF"
+        android:text="GRAY" />
+    <TextView
+        android:background="#F70BBD"
+        android:id="@+id/view_6"
+        android:layout_alignLeft="@id/view_2"
+        android:layout_below="@+id/view_5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFF"
+        android:text="PINK" />
 
 
     <!--<Button
