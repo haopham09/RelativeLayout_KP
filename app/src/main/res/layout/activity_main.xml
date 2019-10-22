@@ -16,16 +16,21 @@
         android:layout_height="wrap_content"
         android:text="View 1" />-->
     <Button
+        android:layout_toLeftOf="@+id/view_2"
+        android:layout_alignParentLeft="true"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="view 1" />
 
     <Button
+        android:id="@+id/view_2"
         android:layout_alignParentRight="true"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="view 2" />
-    <Button
+
+
+    <!--<Button
         android:layout_alignParentBottom="true"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -68,10 +73,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="view 9"/>
+    &lt;!&ndash;layout_alignLeft : nằm ben trai view 9&ndash;&gt;
     <Button
         android:layout_alignLeft="@+id/view_9"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="view 10"/>
+        android:text="view 10"/>-->
 
 </RelativeLayout>
